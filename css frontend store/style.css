@@ -1,0 +1,25 @@
+:root{
+    --primary: #A59757;
+    --dark-primary: #524A24;
+    --secondary: #b2471d;
+    --dark-secondary: rgb(45,43,39);
+    --white: #fff;
+    --black: #000;
+    
+    --principal-font: 'Signika Negative', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/** Globals **/
+body{
+    Font-size: 16px;  /* 1rem = 10px */
+    line-height: 1.5;
+    background-color: var(--primary);
+}
